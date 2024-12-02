@@ -153,7 +153,7 @@ class TriangleTestCase(unittest.TestCase):
 
     def test_perimeter_zero_side(self):
         """Проверяет, периметр треугольника со стороной 0 (должно быть 0)."""
-        self.assertEqual(triangle_perimeter(0, 5, 7), 0):
+        self.assertEqual(triangle_perimeter(0, 5, 7), 0)
 
     def test_area_negative_base(self):
         """Проверяет, что возникает ошибка при вычислении площади с отрицательным основанием."""
